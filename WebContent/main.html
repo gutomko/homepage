@@ -10,7 +10,7 @@
 <script src="js/angular.min.js"></script>
 
 <link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/home.css" rel="stylesheet" media="screen" >
+<link href="css/home.css" rel="stylesheet" media="screen">
 <script src="js/bootstrap.js"></script>
 
 <!-- HTML5 shim and Respond.js IE8 support resources/js/HTML5 elements and media queries -->
@@ -23,74 +23,128 @@
 </head>
 <body>
 	<!-- navbar -->
-	
+
 	<div class="navbar-wrapper" style="height: 51px;"">
 		<div class="hist-affix affix" data-spy="affix" data-offset-top="79">
-		<div class="container topmenu">
-			<nav class="navbar navbar-inverse navbar-static-top navbar-hist">
-				<div class="container" style="background-color: rgba(0, 0, 0, .0001) !important;">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="#"><img src="image/ci1.png" width="120" height="20" style="margin-right: 15px;"></a>
+			<div class="container topmenu">
+				<nav class="navbar navbar-inverse navbar-static-top navbar-hist">
+					<div class="container" style="background-color: rgba(0, 0, 0, .0001) !important;">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#">
+								<img src="image/ci1.png" width="120" height="20" style="margin-right: 15px;">
+							</a>
+						</div>
+						<div id="home-navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a href="#Business" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Business</a>
+									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+										<li>
+											<a href="#">컨설팅</a>
+										</li>
+										<li>
+											<a href="#">IT솔루션 & 시스템</a>
+										</li>
+										<li>
+											<a href="#">IT서비스</a>
+										</li>
+										<li>
+											<a href="#">IT 아웃소싱</a>
+										</li>
+										<li>
+											<a href="#">IT컨버전스</a>
+										</li>
+										<li>
+											<a href="#">Contact Center</a>
+										</li>
+										<li>
+											<a href="#">구축사례</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+										<li>
+											<a href="#">비전</a>
+										</li>
+										<li>
+											<a href="#">영역</a>
+										</li>
+										<li>
+											<a href="#">대표이사</a>
+										</li>
+										<li>
+											<a href="#">협력사</a>
+										</li>
+										<li>
+											<a href="#">고객사</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#Management" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Management</a>
+									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+										<li>
+											<a href="#">경영이념</a>
+										</li>
+										<li>
+											<a href="#">품질경영</a>
+										</li>
+										<li>
+											<a href="#">지식경영</a>
+										</li>
+										<li>
+											<a href="#">기업문화</a>
+										</li>
+										<li>
+											<a href="#">사회공헌</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#Cyber" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PR</a>
+									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+										<li>
+											<a href="#">공지사항</a>
+										</li>
+										<li>
+											<a href="#">기사모음</a>
+										</li>
+										<li>
+											<a href="#">온라인브로슈어</a>
+										</li>
+										<li>
+											<a href="#">홍보자료실</a>
+										</li>
+										<li>
+											<a href="#">재무정보</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#Customer" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Surport</a>
+									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+										<li>
+											<a href="#">고객상담</a>
+										</li>
+										<li>
+											<a href="#">FAQ</a>
+										</li>
+										<li>
+											<a href="#">담당자안내</a>
+										</li>
+										<li>
+											<a href="#">찾아오는길</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+						</div>
 					</div>
-					<div id="home-navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li class="dropdown">
-								<a href="#Business" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Business</a>
-								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-									<li><a href="#">컨설팅</a></li>
-									<li><a href="#">IT솔루션 & 시스템</a></li>
-									<li><a href="#">IT서비스</a></li>
-									<li><a href="#">IT 아웃소싱</a></li>
-									<li><a href="#">IT컨버전스</a></li>
-									<li><a href="#">Contact Center</a></li>
-									<li><a href="#">구축사례</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-									<li><a href="#">비전</a></li>
-									<li><a href="#">영역</a></li>
-									<li><a href="#">대표이사</a></li>
-									<li><a href="#">협력사</a></li>
-									<li><a href="#">고객사</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#Management" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Management</a>
-								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-									<li><a href="#">경영이념</a></li>
-									<li><a href="#">품질경영</a></li>
-									<li><a href="#">지식경영</a></li>
-									<li><a href="#">기업문화</a></li>
-									<li><a href="#">사회공헌</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#Cyber" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PR</a>
-								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-									<li><a href="#">공지사항</a></li>
-									<li><a href="#">기사모음</a></li>
-									<li><a href="#">온라인브로슈어</a></li>
-									<li><a href="#">홍보자료실</a></li>
-									<li><a href="#">재무정보</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#Customer" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Surport</a>
-								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-									<li><a href="#">고객상담</a></li>
-									<li><a href="#">FAQ</a></li>
-									<li><a href="#">담당자안내</a></li>
-									<li><a href="#">찾아오는길</a></li>
-								</ul>
-							</li>
-						</ul>
-						
-					</div>
-				</div>
-			</nav>
-		</div>
+				</nav>
+			</div>
 		</div>
 	</div>
 	<!-- slide wrapper -->
@@ -101,9 +155,11 @@
 					<div class="" style="position: relative; height: 494px;">
 						<div class="test_img_class" style="position: absolute; top: 0px;">
 							<div class="title" style="padding-top: 160px;">
-							<h1 style="color: #f5f5f5; font-size: 80px;">IT Solution Provider</h1>
-							<p style="color: #d9edf7; font-size: 14px;">Best logistics information Service logistics information Service TO Provide the Best logistics information Service.</p>
-							<p><a class="btn btn-lg btn-primary" href="#" role="button" style="background-color: #3db0db;padding: 6px 40px;font-size: 12px;border-color: #5c8096;margin-top: 5px;">자세히</a></p>
+								<h1 style="color: #f5f5f5; font-size: 80px;">IT Solution Provider</h1>
+								<p style="color: #d9edf7; font-size: 14px;">Best logistics information Service logistics information Service TO Provide the Best logistics information Service.</p>
+								<p>
+									<a class="btn btn-lg btn-primary" href="#" role="button" style="background-color: #3db0db; padding: 6px 40px; font-size: 12px; border-color: #5c8096; margin-top: 5px;">자세히</a>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -111,55 +167,309 @@
 			</div>
 		</div>
 	</div>
-	
-	<!-- 2ndarea -->
 
-	<div class="Business">
-		<div class="row">
-			<div class="col-md-15 col-sm-3">
-         	 <img class="img-box" src="image/1Blogging.png" alt="Generic placeholder image" width="140" height="140">
-         	 <h2 class="p-home">Consulting</h2>
-        	  <p>We are getting closer to our</p>
-        	  <p>customers with specialized know how</p>
-        	  <p>and integrated consulting service.</p>
-        	  <p><a class="btn btn-default" href="#" role="button">more</a></p>
-        	</div>
-        	<div class="col-md-15 col-sm-3">
-         	 <img class="img-cbox" src="image/2analytics.png" alt="Generic placeholder image" width="140" height="140">
-         	 <h2 class="p-home">IT Solution</h2>
-        	  <p>We provide the optimized solutions</p>
-        	  <p>for logistics, aviation, national</p>
-        	  <p>defense and healthcare.</p>
-        	  <p><a class="btn btn-default" href="#" role="button">more</a></p>
-        	</div>
-  			<div class="col-md-15 col-sm-3">
-         	 <img class="img-box" src="image/3Media.png" alt="Generic placeholder image" width="140" height="140">
-         	 <h2 class="p-home">IT Service</h2>
-        	  <p>We help our customers succeed</p>
-        	  <p>by combining customers' business</p>
-        	  <p>process with smart technology.</p>
-        	  <p><a class="btn btn-default" href="#" role="button">more</a></p>
-        	</div>
-        	<div class="col-md-15 col-sm-3">
-         	 <img class="img-box" src="image/4track.png" alt="Generic placeholder image" width="140" height="140">
-         	 <h2 class="p-home">IT Outsourcing</h2>
-        	  <p>We provide Safer and More</p>
-        	  <p>Efficient Services to Customers</p>
-        	  <p>across the World.</p>
-        	  <p><a class="btn btn-default" href="#" role="button">more</a></p>
-        	</div>
-        	<div class="col-md-15 col-sm-3">
-         	 <img class="img-box" src="image/5Optimization.png" alt="Generic placeholder image" width="140" height="140">
-         	 <h2 class="p-home">IT Convergence</h2>
-        	  <p>We supports open SW based</p>
-        	  <p>cloud technology,IoT,Big Data</p>
-        	  <p>and GIS service.</p>
-        	  <p><a class="btn btn-default" href="#" role="button">more</a></p>
-        	</div>
+	<!-- 2ndarea -->
+	<div class="boxset">
+		<div class="container">
+			<div class="container section-title ">
+				<h2>사업소개 영영, 그럴싸한 타이틀멘트</h2>
+				<p>We are specialists in the creation of brand identities</p>
+			</div>
+			<div class="row " style="margin-top: 30px;">
+				<div class="col-md-4">
+					<div class="row form-group">
+						<div class="media-img col-md-4 col-xs-4" style="padding-left: 0px; padding-right: 0px;">
+							<img src="image/b01.png" alt="Consulting" style="max-width: 100%; max-height: 100%">
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="//">Consulting</a>
+								</h4>
+								<p class="hidden-xs">What is Riot Design, our clients and specialties.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row form-group">
+						<div class="media-img col-md-4 col-xs-4" style="padding-left: 0px; padding-right: 0px;">
+							<img src="image/b02.png" alt="IT Solution & System" style="max-width: 100%; max-height: 100%">
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="//">IT Solution & System</a>
+								</h4>
+								<p class="hidden-xs">What is Riot Design, our clients and specialties.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row form-group">
+						<div class="media-img col-md-4 col-xs-4" style="padding-left: 0px; padding-right: 0px;">
+							<img src="image/b03.png" alt="IT Service" style="max-width: 100%; max-height: 100%">
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="//">IT Service</a>
+								</h4>
+								<p class="hidden-xs">What is Riot Design, our clients and specialties.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row form-group">
+						<div class="media-img col-md-4 col-xs-4" style="padding-left: 0px; padding-right: 0px;">
+							<img src="image/b04.png" alt="IT Outsourcing" style="max-width: 100%; max-height: 100%">
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="//">IT Outsourcing</a>
+								</h4>
+								<p class="hidden-xs">What is Riot Design, our clients and specialties.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row form-group">
+						<div class="media-img col-md-4 col-xs-4" style="padding-left: 0px; padding-right: 0px;">
+							<img src="image/b05.png" alt="IT Convergence" style="max-width: 100%; max-height: 100%">
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="//">IT Convergence</a>
+								</h4>
+								<p class="hidden-xs">What is Riot Design, our clients and specialties.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row form-group">
+						<div class="media-img col-md-4 col-xs-4" style="padding-left: 0px; padding-right: 0px;">
+							<img src="image/b06.png" alt="Contact Center" style="max-width: 100%; max-height: 100%">
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="//">Contact Center</a>
+								</h4>
+								<p class="hidden-xs">What is Riot Design, our clients and specialties.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
+
+	<!-- 2rdarea -->
 	
 
+	<section class="portfolio">
+		<div class="container">
+			<div class="section-title">
+				<h2 style="color: #51849e !important;">사업 포트폴리오 링크가 들어갈 영역, 여기도 물론 그런타이틀</h2>
+				<p>We are specialists in the creation of brand identities</p>
+			</div>		
+			<div class="row" style="margin-top: 30px;">
+				<div class="co-md-12">
+					<div class="media">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<img class="img" src="image/p01.png" alt="image" width="140" height="140">
+								<h2>portfolio01</h2>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<img class="img" src="image/p01.png" alt="image" width="140" height="140">
+								<h2>portfolio02</h2>
+							</div>
+							<div class="col-md-3 hidden-sm hidden-xs">
+								<img class="img" src="image/p01.png" alt="image" width="140" height="140">
+								<h2>portfolio03</h2>
+							</div>
+							<div class="col-md-3 hidden-sm hidden-xs">
+								<img class="img" src="image/p01.png" alt="image" width="140" height="140">
+								<h2>portfolio04</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>>
 
-	
-	
+
+
+	<!--
+	<div class="business-box" style="background: #EEEEF2;">
+		<div class="container section-title ">
+			<h2>사업소개 영영, 그럴싸한 타이틀멘트</h2>
+			<p>We are specialists in the creation of brand identities</p>
+		</div>
+		<div class="row">
+			<div class="col-md-15 col-sm-3">
+				<img class="img-box" src="image/1Blogging.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+				<h2 class="p-home">Consulting</h2>
+				<p>We are getting closer to our</p>
+				<p>customers with specialized know how</p>
+				<p>and integrated consulting service.</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">more</a>
+				</p>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="media">
+					<div class="row ">
+						<div class="col-sm-5  col-md-4">
+							<div class="media-img">
+								<img src="https://cdn4.iconfinder.com/data/icons/miu-square-flat-social/60/facebook-square-social-media-128.png" alt="About" style="width: 100%; height:100%" >
+							</div>
+						</div>
+						<div class="col-sm-7 col-md-8  ">
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="/about/">About</a>
+								</h4>
+								<p class="hidden-sm">What is Riot Design, our clients and specialties.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+-----------------------------			
+			<div class="col-md-15 col-sm-3">
+				<img class="img-cbox" src="image/2analytics.png" alt="Generic placeholder image" width="140" height="140">
+				<div class="bis-box" width="100" height="140" style="background-color: #3db0db; padding: 6px 6px; text-align: left;">
+					<h2 class="p-home">IT Solution</h2>
+					<p>We provide the optimized solutions</p>
+					<p>for logistics, aviation, national</p>
+					<p>defense and healthcare.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button">more</a>
+					</p>
+				</div>
+			</div>
+-----------------------------
+
+			<div class="col-md-15 col-sm-3">
+				<img class="img-box" src="image/3Media.png" alt="Generic placeholder image" width="140" height="140">
+				<h2 class="p-home">IT Service</h2>
+				<p>We help our customers succeed</p>
+				<p>by combining customers' business</p>
+				<p>process with smart technology.</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">more</a>
+				</p>
+			</div>
+			<div class="col-md-15 col-sm-3">
+				<img class="img-box" src="image/4track.png" alt="Generic placeholder image" width="140" height="140">
+				<h2 class="p-home">IT Outsourcing</h2>
+				<p>We provide Safer and More</p>
+				<p>Efficient Services to Customers</p>
+				<p>across the World.</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">more</a>
+				</p>
+			</div>
+			<div class="col-md-15 col-sm-3">
+				<img class="img-box" src="image/5Optimization.png" alt="Generic placeholder image" width="140" height="140">
+				<h2 class="p-home">IT Convergence</h2>
+				<p>We supports open SW based</p>
+				<p>cloud technology,IoT,Big Data</p>
+				<p>and GIS service.</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">more</a>
+				</p>
+			</div>
+		</div>
+	</div>
+-->
+
+	<section class="link">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="col-md-4">
+						<div class="media">
+							<div class="row ">
+								<div class="media-img  pull-left  col-sm-5  col-md-4 ">
+									<img src="" alt="contactus" width="100" height="100">
+								</div>
+								<div class="media-body   col-sm-7 col-md-8  ">
+									<h4 class="media-heading">
+										<a href="">contact us</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media">
+							<div class="row ">
+								<div class="media-img pull-left   col-sm-5 col-md-4 ">
+									<img src="" alt="map" width="100" height="100">
+								</div>
+								<div class="media-body   col-sm-7  col-md-8 ">
+									<h4 class="media-heading">
+										<a href="">map</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media">
+							<div class="row ">
+								<div class="media-img  pull-left   col-sm-5 col-md-4 ">
+									<img src="" alt="etc" width="100" height="100">
+								</div>
+								<div class="media-body col-md-4 ">
+									<h4 class="media-heading">
+										<a href="">etc</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media">
+							<div class="row ">
+								<div class="media-img  pull-left  col-md-4 ">
+									<img src="" alt="etc" width="100" height="100">
+								</div>
+								<div class="media-body col-md-4 ">
+									<h4 class="media-heading">
+										<a href="">etc</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+	</section>
+
+	<div class="bottom" style="background-color: white !important;">
+		<div class="section-title">
+			<h2>그룹사등 링크 영역</h2>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="section-title" style="padding-top: 40px; padding-bottom: 40px;">
+			<p>서울특별시 강서구 공항대로 453 (등촌동) Tel. (02) 2166-7114 Fax. (02) 2166-7070</p>
+			<p>Copyright ⓒ 2017 hanjin Information Systems & Telecommunication Co., Ltd. All rights reserved</p>
+		</div>
+	</div>

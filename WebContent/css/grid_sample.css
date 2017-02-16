@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Business Box
+   ========================================================================== */
+
+
+.boxset .form-group {
+	background: #fff;
+	border-bottom: solid 1px #c7c9c8;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.boxset {
+    background: #EEEEF2;
+}
+
+.media-body {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+
+/* ==========================================================================
+   Business Box
+   ========================================================================== */
+
+
+.portfolio {
+    background: white;
+}
+
+.portfolio h2{
+    font-size: 18px;
+    text-align: center;
+}
+
+.col-md-3 {
+	text-align: center;
+}
