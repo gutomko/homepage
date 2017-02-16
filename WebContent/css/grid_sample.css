@@ -32,9 +32,24 @@
 
 .portfolio h2{
     font-size: 18px;
-    text-align: center;
 }
 
 .col-md-3 {
 	text-align: center;
+}
+
+
+/* ==========================================================================
+   link
+   ========================================================================== */
+
+.link h4{
+	font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+.link {
+    background: #78afc3;
 }
