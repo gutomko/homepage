@@ -168,7 +168,7 @@
     background: white;
 }
 
-.portfolio .media h2{
+.carousel-inner .media h2{
     font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
@@ -180,6 +180,10 @@
 
 .portfolio {
     background: #EEEEF2;
+}
+
+.carousel-inner {
+	background: #EEEEF2;
 }
 
 /* ==========================================================================
