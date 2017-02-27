@@ -11,6 +11,7 @@
 
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/home.css" rel="stylesheet" media="screen">
+
 <script src="js/bootstrap.js"></script>
 
 <!-- HTML5 shim and Respond.js IE8 support resources/js/HTML5 elements and media queries -->
@@ -24,127 +25,244 @@
 <body>
 	<!-- navbar -->
 
+
+
 	<div class="navbar-wrapper" style="height: 51px;"">
 		<div class="hist-affix affix" data-spy="affix" data-offset-top="79">
-			<div class="container topmenu">
-				<nav class="navbar navbar-inverse navbar-static-top navbar-hist">
-					<div class="container" style="background-color: rgba(0, 0, 0, .0001) !important;">
-						<div class="navbar-header">
-							<a class="navbar-brand" href="#">
-								<img src="image/ci1.png" width="120" height="20" style="margin-right: 15px;">
-							</a>
-						</div>
-						<div id="home-navbar" class="navbar-collapse collapse">
-							<ul class="nav navbar-nav">
-								<li class="dropdown">
-									<a href="#Business" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Business</a>
-									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-										<li>
-											<a href="#">컨설팅</a>
-										</li>
-										<li>
-											<a href="#">IT솔루션 & 시스템</a>
-										</li>
-										<li>
-											<a href="#">IT서비스</a>
-										</li>
-										<li>
-											<a href="#">IT 아웃소싱</a>
-										</li>
-										<li>
-											<a href="#">IT컨버전스</a>
-										</li>
-										<li>
-											<a href="#">Contact Center</a>
-										</li>
-										<li>
-											<a href="#">구축사례</a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-										<li>
-											<a href="#">비전</a>
-										</li>
-										<li>
-											<a href="#">영역</a>
-										</li>
-										<li>
-											<a href="#">대표이사</a>
-										</li>
-										<li>
-											<a href="#">협력사</a>
-										</li>
-										<li>
-											<a href="#">고객사</a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#Management" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Management</a>
-									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-										<li>
-											<a href="#">경영이념</a>
-										</li>
-										<li>
-											<a href="#">품질경영</a>
-										</li>
-										<li>
-											<a href="#">지식경영</a>
-										</li>
-										<li>
-											<a href="#">기업문화</a>
-										</li>
-										<li>
-											<a href="#">사회공헌</a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#Cyber" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PR</a>
-									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-										<li>
-											<a href="#">공지사항</a>
-										</li>
-										<li>
-											<a href="#">기사모음</a>
-										</li>
-										<li>
-											<a href="#">온라인브로슈어</a>
-										</li>
-										<li>
-											<a href="#">홍보자료실</a>
-										</li>
-										<li>
-											<a href="#">재무정보</a>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#Customer" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Surport</a>
-									<ul class="dropdown-menu" style="background-color: #a3b4c0;">
-										<li>
-											<a href="#">고객상담</a>
-										</li>
-										<li>
-											<a href="#">FAQ</a>
-										</li>
-										<li>
-											<a href="#">담당자안내</a>
-										</li>
-										<li>
-											<a href="#">찾아오는길</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
 
-						</div>
+
+			<nav class="navbar navbar-default navbar-hist">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">
+							<img src="image/ci1.png" width="120" height="20" style="margin-right: 15px;">
+						</a>
 					</div>
-				</nav>
-			</div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active">
+							<li class="nav-item dropdown">
+								<a href="#Business" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-target="#AAA">Business</a>
+								<ul class="dropdown-menu" style="background-color: rgba(106, 176, 200, 0.9); height: 280px; padding-top: 30px;">
+
+									<li class="has-children" style="margin-left:100px;">
+										<a href="">
+											<h4>Consulting</h4>
+										</a>
+									</li>
+									<li class="has-children">
+										<a href=""><h4>IT Solution & System</h4></a>
+										<ul class="is-hidden">
+											<li>
+												<a href="#0">항공관제</a>
+											</li>
+											<li>
+												<a href="#0">공항/방산</a>
+											</li>
+											<li>
+												<a href="">의료</a>
+											</li>
+											<li>
+												<a href="">방송</a>
+											</li>
+											<li>
+												<a href="">보안</a>
+											</li>
+											<li>
+												<a href="">기업솔루션</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children">
+										<a href=""><h4>IT Service</h4></a>
+										<ul class="is-hidden">
+											<li>
+												<a href="#0">물류</a>
+											</li>
+											<li>
+												<a href="#0">항공/공항</a>
+											</li>
+											<li>
+												<a href="">의료/U-Health</a>
+											</li>
+											<li>
+												<a href="">미디어</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children">
+										<a href=""><h4>IT Outsourcing</h4></a>
+										<ul class="is-hidden">
+											<li>
+												<a href="#0">데이터센터 아웃소싱</a>
+											</li>
+											<li>
+												<a href="#0">네트워크 아웃소싱</a>
+											</li>
+											<li>
+												<a href="">어플리케이션 아웃소싱</a>
+											</li>
+											<li>
+												<a href="">Groupware ASP SVC</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children">
+										<a href=""><h4>IT Convergence</h4></a>
+										<ul class="is-hidden">
+											<li>
+												<a href="#0">Big Data</a>
+											</li>
+											<li>
+												<a href="#0">Cloud(MsAzure)</a>
+											</li>
+											<li>
+												<a href="">IoT</a>
+											</li>
+											<li>
+												<a href="">지리정보</a>
+											</li>
+											<li>
+												<a href="">스마트빌딩</a>
+											</li>
+											<li>
+												<a href="">메디컬컨버전스</a>
+											</li>
+											<li>
+												<a href="">그린 IT</a>
+											</li>
+											<li>
+												<a href="">초고층빌딩</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children">
+										<a href=""><h4>Contact Center</h4></a>
+										<ul class="is-hidden">
+											<li>
+												<a href="#0">컨텍센터 구축</a>
+											</li>
+											<li>
+												<a href="#0">아웃소싱 서비스</a>
+											</li>
+										</ul>
+									</li>
+
+									<!--
+									<li>
+										<a href="#">컨설팅</a>
+									</li>
+									<li>
+										<a href="#">IT솔루션 & 시스템</a>
+									</li>
+									<li>
+										<a href="#">IT서비스</a>
+									</li>
+									<li>
+										<a href="#">IT 아웃소싱</a>
+									</li>
+									<li>
+										<a href="#">IT컨버전스</a>
+									</li>
+									<li>
+										<a href="#">Contact Center</a>
+									</li>
+									<li>
+										<a href="#">구축사례</a>
+									</li>
+									-->
+
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+									<li>
+										<a href="#">비전</a>
+									</li>
+									<li>
+										<a href="#">영역</a>
+									</li>
+									<li>
+										<a href="#">대표이사</a>
+									</li>
+									<li>
+										<a href="#">협력사</a>
+									</li>
+									<li>
+										<a href="#">고객사</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#Management" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Management</a>
+								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+									<li>
+										<a href="#">경영이념</a>
+									</li>
+									<li>
+										<a href="#">품질경영</a>
+									</li>
+									<li>
+										<a href="#">지식경영</a>
+									</li>
+									<li>
+										<a href="#">기업문화</a>
+									</li>
+									<li>
+										<a href="#">사회공헌</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#Cyber" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PR</a>
+								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+									<li>
+										<a href="#">공지사항</a>
+									</li>
+									<li>
+										<a href="#">기사모음</a>
+									</li>
+									<li>
+										<a href="#">온라인브로슈어</a>
+									</li>
+									<li>
+										<a href="#">홍보자료실</a>
+									</li>
+									<li>
+										<a href="#">재무정보</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#Customer" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Surport</a>
+								<ul class="dropdown-menu" style="background-color: #a3b4c0;">
+									<li>
+										<a href="#">고객상담</a>
+									</li>
+									<li>
+										<a href="#">FAQ</a>
+									</li>
+									<li>
+										<a href="#">담당자안내</a>
+									</li>
+									<li>
+										<a href="#">찾아오는길</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+
+					</div>
+			</nav>
+
 		</div>
 	</div>
 	<!-- slide wrapper -->

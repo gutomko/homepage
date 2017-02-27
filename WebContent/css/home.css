@@ -24,6 +24,14 @@
     border-color: rgba(255, 255, 255, 0);
 }
 
+.topmenu {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100vw;
+}
+
 .navbar-hist .navbar-nav > .open > a, .navbar-hist .navbar-nav > .open > a:hover, .navbar-hist .navbar-nav > .open > a:focus { */
     color: #fff;
     background-color: #70abc1;
@@ -57,6 +65,47 @@
 .section-title {
     text-align: center;
 }
+ 
+.hist-affix {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+} 
+
+.dropdown-menu {
+    background-color: #a3b4c0;
+    width: 500vw;
+    margin-left: -170px;
+}
+
+    
+.dropdown-menu > .has-children {
+    float: left;
+    border-right: 1px solid #93c2d3;
+    height: 200px;
+    margin-right: 0.5%;
+    width: 200px;
+}    
+
+/*
+
+.is-hidden > a {
+    color: #white  !important;
+    text-decoration: none;
+}  
+
+.is-hidden > a:hover {
+    color: #afdaff  !important;
+    text-decoration: underline;
+}    
+
+.is-hidden > a:focus {
+    color: #afdaff  !important;
+    text-decoration: underline;
+}    
+
+*/
     
 /* 2nd */
 
@@ -143,7 +192,6 @@
    ========================================================================== */
 
 .about_img_class {
-    background:  url("../image/biz00.jpg") center center no-repeat;
     width: 100vw;
     background-size: cover;
     height: 500px;
@@ -165,7 +213,7 @@
 }
 
 .portfolio {
-    background: white;
+    background: #78afc3;
 }
 
 .carousel-inner .media h2{
@@ -178,12 +226,8 @@
 	text-align: center;
 }
 
-.portfolio {
-    background: #EEEEF2;
-}
-
 .carousel-inner {
-	background: #EEEEF2;
+	background: #78afc3;
 }
 
 /* ==========================================================================
@@ -198,7 +242,7 @@
 }
 
 .link {
-    background: #78afc3;
+    background: #568090;
 }
 
 .link .row{
