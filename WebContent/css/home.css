@@ -88,24 +88,22 @@
     width: 200px;
 }    
 
-/*
 
-.is-hidden > a {
-    color: #white  !important;
+.is-hidden > li > a {
+    color: #485965  !important;
     text-decoration: none;
 }  
 
-.is-hidden > a:hover {
+.is-hidden > li > a:hover {
     color: #afdaff  !important;
     text-decoration: underline;
 }    
 
-.is-hidden > a:focus {
+.is-hidden > li > a:focus {
     color: #afdaff  !important;
     text-decoration: underline;
 }    
 
-*/
     
 /* 2nd */
 
